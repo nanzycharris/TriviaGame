@@ -1,0 +1,12 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/ChildrensLiteratureBackground.jpg); 
+}
+
+.container {
+    width: 1024px;  
+    align-content: center;  
+}
