@@ -131,4 +131,58 @@ const questions = [
             { text: 'Carnegie Medal', correct: false }
         ]
     },
+    {
+        question: 'This author and illustrator was the first to introduce the technique of collage on children\'s picture books. He was a recipient of the Lewis Carroll Shelf Award. Among his books are \"Inch by Inch,\" \"A Color of His Own,\" and \"Alexander and the Wind-up Mouse.\"',
+        answers: [
+            { text: 'Eric Carle', correct: false },
+            { text: 'Shel Silberstein', correct: false },
+            { text: 'Leo Lionni', correct: true },
+            { text: 'Mo Willems', correct: false }
+        ]
+    },
+    {
+        question: 'This British author not only has sold over 250 million copies worldwide, he also was a poet, screenwriter, and fighter pilot. He authored beloved children\'s literature works such as \"Matilda,\" \"Charlie and the Chocolate Factory,\" \"The Witches,\" and \"The Vicar of Nibbleswicke,\" this last one was written to benefit the Dyslexia Institute in London (now Dyslexia Action).',
+        answers: [
+            { text: 'C. S. Lewis', correct: false },
+            { text: 'John Newbery', correct: false },
+            { text: 'Charles Dickens', correct: false },
+            { text: 'Roald Dahl', correct: true }
+        ]
+    },
+    {
+        question: 'This novel by Kate DiCamillo was awarded the 2004 Newbery Medal. Divided into four \"books\" and finalized in a coda, the main plot tells the adventures of a little mouse who can read and sets out on a quest of honor and love.',
+        answers: [
+            { text: 'The Tale of Despereaux', correct: true },
+            { text: 'Stuart Little', correct: false },
+            { text: 'Alexander and the Wind-up Mouse', correct: false },
+            { text: 'An American Tail', correct: false }
+        ]
+    },
+    {
+        question: 'Author of bedtime classic picture books like \"Goodnight Moon,\" \"The Runaway Bunny,\” and \"Big Red Barn.\" Also wrote under the pseudonym Golden MacDonald.',
+        answers: [
+            { text: 'Felicia Bond', correct: false },
+            { text: 'Margaret Wise Brown', correct: true },
+            { text: 'Clement Hurd', correct: false },
+            { text: 'David Shannon', correct: false }
+        ]
+    },
+    {
+        question: 'This American children\'s author and illustrator is better known by the pen name under which he wrote more than 60 titles. Among his books are \"Horton Hears a Who,\" \"Green Eggs and Ham,\" \"The Cat in the Hat,\" and \"How the Grinch Stole Christmas\!\"',
+        answers: [
+            { text: 'Gene Zion', correct: false },
+            { text: 'P. D. Eastman', correct: false },
+            { text: 'Theodor Seuss Geisel', correct: true },
+            { text: 'Michael Bond', correct: false }
+        ]
+    },
+    {
+        question: 'This popular series of children\'s books was founded in 1942. Many of its titles have become best sellers, such as \The Little Red Hen,\" \"The Poky Little Puppy,\" and \"The Monster at the End of This Book.\"',
+        answers: [
+            { text: 'Scholastic Book Club', correct: false },
+            { text: 'Red Randall Series', correct: false },
+            { text: 'Golden Goose Books', correct: false },
+            { text: 'Little Golden Books', correct: true }
+        ]
+    },
 ]
