@@ -38,6 +38,19 @@ body.wrong {
     box-shadow: 0 0 10px 2px;
 }
 
+#triviaHeader {
+    font-weight: 600;
+    font-size: 18px;
+    color: purple;
+    background-color: rgb(238, 182, 182);
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 17;
+    color:  rgb(100, 7, 100);
+}
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
