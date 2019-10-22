@@ -123,3 +123,23 @@ button {
   position: relative;
   margin: 13%;
 }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+  .container {
+    height: 100%;
+  }
+  .wrapper {
+    height: 550px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container {
+    height: 100%;
+  }
+  .wrapper {
+    height: 100%;
+  }  
+}
