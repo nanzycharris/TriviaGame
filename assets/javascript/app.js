@@ -109,8 +109,9 @@ $(document).ready(function () {
         // Out of time 
         if (timer === 0) {
             unanswerCount++;
-            stop();
             $("#answerblock").html("<p>Time is up! The answer is: " + pick.choice[pick.answer] + "</p>");
+            stop();
+            nextQuestion();
         }
     }
 
