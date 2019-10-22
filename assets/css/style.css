@@ -125,7 +125,7 @@ button {
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
   .container {
     height: 100%;
   }
@@ -135,7 +135,7 @@ button {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
   .container {
     height: 100%;
   }
