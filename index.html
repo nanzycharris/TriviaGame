@@ -21,25 +21,18 @@
                     Test your knowledge of the authors and illustrators that make our
                     little ones fall in love with literature, one imaginative story at a time.</h4>
             </div>
+            <div id="timeleft"></div>
         </div>
         <br>
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
-            </div>
-        </div>
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
+        <div class="wrapper">
+            <div id="questionblock"></div><br>
+            <div id="answerblock"></div>
+            <button class="start-btn btn" id="start">Start</button><br>
+            <button class="start-btn btn" id="reset">Restart</button>
         </div>
     </div>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
-
 </body>
 
 </html>
