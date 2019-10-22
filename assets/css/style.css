@@ -124,6 +124,15 @@ button {
   margin: 13%;
 }
 
+/* Small devices (portrait phones, 576px and down)*/
+@media (max-width: 575.98px) { 
+  .container {
+    height: 100%;
+  }
+  .wrapper {
+    height: 550px;
+  }
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
   .container {
