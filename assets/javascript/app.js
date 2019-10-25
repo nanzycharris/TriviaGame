@@ -50,7 +50,7 @@ $(document).ready(function () {
             answer: 0,
         },
         {
-            question: "Author of bedtime classic picture books like \"Goodnight Moon,\" \"The Runaway Bunny,\" and \"Big Red Barn.\" Also wrote under the pseudonym Golden MacDonald.",
+            question: "Author of bedtime classic picture books like \"Goodnight Moon,\" \"The Runaway Bunny,\" and \"Big Red Barn;\" also wrote under the pseudonym Golden MacDonald.",
             choice: ["Felicia Bond", "Margaret Wise Brown", "Clement Hurd", "David Shannon"],
             answer: 1,
         },
